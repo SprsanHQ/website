@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/favicon.png">
+    <title>Thank You - Sparsan</title>
+    <meta name="description" content="Thank you for contacting Sparsan. We'll be in touch soon!">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- RudderStack Analytics -->
+    <script type="text/javascript">
+      !function(){"use strict";window.RudderSnippetVersion="3.2.0";var e="rudderanalytics";window[e]||(window[e]=[])
+      ;var rudderanalytics=window[e];if(Array.isArray(rudderanalytics)){
+      if(true===rudderanalytics.snippetExecuted&&window.console&&console.error){
+      console.error("RudderStack JavaScript SDK snippet included more than once.")}else{rudderanalytics.snippetExecuted=true,
+      window.rudderAnalyticsBuildType="legacy";var sdkBaseUrl="https://cdn.rudderlabs.com";var sdkVersion="v3"
+      ;var sdkFileName="rsa.min.js";var scriptLoadingMode="async"
+      ;var r=["setDefaultInstanceKey","load","ready","page","track","identify","alias","group","reset","setAnonymousId","startSession","endSession","consent","addCustomIntegration"]
+      ;for(var n=0;n<r.length;n++){var t=r[n];rudderanalytics[t]=function(r){return function(){var n
+      ;Array.isArray(window[e])?rudderanalytics.push([r].concat(Array.prototype.slice.call(arguments))):null===(n=window[e][r])||void 0===n||n.apply(window[e],arguments)
+      }}(t)}try{
+      new Function('class Test{field=()=>{};test({prop=[]}={}){return prop?(prop?.property??[...prop]):import("");}}'),
+      window.rudderAnalyticsBuildType="modern"}catch(i){}var d=document.head||document.getElementsByTagName("head")[0]
+      ;var o=document.body||document.getElementsByTagName("body")[0];window.rudderAnalyticsAddScript=function(e,r,n){
+      var t=document.createElement("script");t.src=e,t.setAttribute("data-loader","RS_JS_SDK"),r&&n&&t.setAttribute(r,n),
+      "async"===scriptLoadingMode?t.async=true:"defer"===scriptLoadingMode&&(t.defer=true),
+      d?d.insertBefore(t,d.firstChild):o.insertBefore(t,o.firstChild)},window.rudderAnalyticsMount=function(){!function(){
+      if("undefined"==typeof globalThis){var e;var r=function getGlobal(){
+      return"undefined"!=typeof self?self:"undefined"!=typeof window?window:null}();r&&Object.defineProperty(r,"globalThis",{
+      value:r,configurable:true})}
+      }(),window.rudderAnalyticsAddScript("".concat(sdkBaseUrl,"/").concat(sdkVersion,"/").concat(window.rudderAnalyticsBuildType,"/").concat(sdkFileName),"data-rsa-write-key","33sLUwwFuU6EqeP0g8FRrEB1ZND")
+      },
+      "undefined"==typeof Promise||"undefined"==typeof globalThis?window.rudderAnalyticsAddScript("https://polyfill-fastly.io/v3/polyfill.min.js?version=3.111.0&features=Symbol%2CPromise&callback=rudderAnalyticsMount"):window.rudderAnalyticsMount()
+      ;var loadOptions={};rudderanalytics.load("33sLUwwFuU6EqeP0g8FRrEB1ZND","https://sparsanavmvoli.dataplane.rudderstack.com",loadOptions)}}}();
+    </script>
+
+    <!-- Track form submission on success page load -->
+    <script>
+      window.addEventListener('load', function() {
+        if (typeof rudderanalytics !== 'undefined') {
+          rudderanalytics.track('Lead Form Submitted', {
+            page: 'success',
+            timestamp: new Date().toISOString(),
+            source: 'netlify-form'
+          });
+        }
+      });
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.png" alt="Sparsan Logo" class="logo-img">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="use-cases.html">Use Cases</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="contact.html#contact-form" class="btn-primary">Request a Demo</a>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Success Message -->
+    <section class="page-hero" style="padding: 6rem 0;">
+        <div class="container">
+            <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+                <div style="font-size: 4rem; margin-bottom: 1rem;">✅</div>
+                <h1>Thank You!</h1>
+                <p style="font-size: 1.25rem; margin-bottom: 2rem;">
+                    Your message has been received. We'll get back to you within 24 hours.
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="index.html" class="btn-primary">Back to Home</a>
+                    <a href="pricing.html" class="btn-secondary">View Pricing</a>
+                    <a href="resources.html" class="btn-outline">Read Resources</a>
+                </div>
+                <p style="margin-top: 2rem; font-size: 0.875rem; color: var(--gray-600);">
+                    In the meantime, why not explore our resources or start a free trial?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Want to Get Started Right Away?</h2>
+                <p>No need to wait - you can start your free trial now</p>
+                <div class="cta-buttons">
+                    <a href="index.html" class="btn-primary btn-large">Back to Homepage</a>
+                </div>
+                <p class="cta-note">100 conversations free every month • No credit card required</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <img src="assets/images/logo.png" alt="Sparsan Logo" class="footer-logo">
+                    <p>AI-powered customer support made simple for small and medium businesses.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="use-cases.html">Use Cases</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">API Docs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="resources.html">Blog</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Video Tutorials</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sparsan. All rights reserved.</p>
+                <p>Contact: <a href="mailto:hello@sparsan.com">hello@sparsan.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

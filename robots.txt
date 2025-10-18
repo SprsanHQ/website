@@ -1,0 +1,11 @@
+# Robots.txt for Sparsan website
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.sparsan.com/sitemap.xml
+
+# Optional: Disallow certain paths (currently allowing all)
+# Disallow: /test-form.html
