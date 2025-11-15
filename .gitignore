@@ -1,102 +1,44 @@
-# IDE and Editor Files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-*.sublime-workspace
-*.sublime-project
-
-# OS Files
-Thumbs.db
-desktop.ini
-
 # Logs
+logs
 *.log
-logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 lerna-debug.log*
 
-# Temporary Files
-*.tmp
-*.temp
-.cache/
-temp/
-tmp/
+# Dependencies  
+node_modules
+dist
+dist-ssr
+*.local
 
-# Environment Variables
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj*
+*.sln
+*.sw?
+
+# Environment variables
 .env
 .env.local
-.env.development
-.env.test
-.env.production
-.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Node Modules (if you add build tools in future)
-node_modules/
-package-lock.json
-yarn.lock
-
-# Build Output (for future use)
-dist/
+# Build outputs
 build/
-out/
-.next/
-.nuxt/
+.cache/
 
-# Testing
-coverage/
-.nyc_output/
-*.test.js
-*.spec.js
-__tests__/
-
-# Backup Files
-*.bak
+# Backup
+old-static-site/
 *.backup
-*~
 
-# Documentation Build
-docs/_build/
-docs/.doctrees/
-
-# Python (if you use Python server)
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Local Development
-local/
-.local/
-
-# Deployment
-.netlify/
-.vercel/
-
-# Static Site Generators (for future expansion)
-.jekyll-cache/
-.sass-cache/
-_site/
-
-# Sensitive Data
-config/secrets.json
-secrets.json
-credentials.json
-*.pem
-*.key
-*.cert
-
-# Test Files
-test-*.html
-*-test.html
-*-diagnostic.md
+# OS files
+Thumbs.db
+.DS_Store
